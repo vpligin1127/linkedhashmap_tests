@@ -1,3 +1,5 @@
+package com.lognex.unittest;
+
 import org.junit.Test;
 
 import java.util.*;
@@ -44,17 +46,15 @@ public class CasesForTest {
 
     @Test
     public void checkForOrder() {
-        System.out.println("Элементы в порядке по умолчанию");
+        //Проверка работы параметра AccessOrder: сначала сформирован Set ключей keysOld в том порядке, как они создались
         dict1.forEach((k, v) -> System.out.println(k+"="+v));
         Set keysOld = dict1.keySet();
 
-        System.out.println("~~~~~~~~~~~~~~~~~");
-        System.out.println("Вызываем элементы с ключами: ключ 1 - один раз ключ 2 - два раза");
+        //Теперь обратимся к записям словаря: один раз к записи по ключу 1 и два раза к записи по ключу 2
         System.out.println(dict1.get(1)+" "+dict1.get(2)+" "+dict1.get(2));
+        //После такого обращения сформируем снова Set ключей keysNew. Они расположатся в нем в порядке, обратном
+        //частоте вызова. Ключ 2 будет последним, ключ 1 - предпоследним.
 
-        System.out.println("~~~~~~~~~~~~~~~~~");
-        System.out.println("Элементы в порядке вызова от менее вызываемых к более вызываемым");
-        dict1.forEach((k, v) -> System.out.println(k+"="+v));
         Set keysNew = dict1.keySet();
 
         assertFalse("Порядок не изменился", !keysOld.equals(keysNew));
@@ -63,6 +63,9 @@ public class CasesForTest {
 
     @Test
     public void checkIterator() {
+        //Проверка работы итератора
+        //Сформирован список ключей при помощи метода keySet
+        //Сравнивается со списком, сформированным по циклу for each
         Object[] keysExpected = dict1.keySet().toArray();
         List<Integer> keysActual = new ArrayList<>();
 

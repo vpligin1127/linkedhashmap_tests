@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05ff7af3-f4de-4874-ae3a-f805395f1a66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CasesForTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CasesForTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CasesForTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CasesForTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CasesForTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lognex/unittest/CasesForTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CasesForTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,10 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CasesForTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lognex/unittest/CasesForTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="329">
+              <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,6 +60,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CasesForTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lognex/unittest/CasesForTest.java" />
       </list>
     </option>
   </component>
@@ -79,7 +80,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,10 +110,19 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="linkedhashmap_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="linkedhashmap_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="unittest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -139,8 +148,8 @@
   <component name="RunManager" selected="JUnit.CasesForTest">
     <configuration name="CasesForTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedhashmap_tests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CasesForTest" />
+      <option name="PACKAGE_NAME" value="com.lognex.unittest" />
+      <option name="MAIN_CLASS_NAME" value="com.lognex.unittest.CasesForTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,8 +157,8 @@
     </configuration>
     <configuration name="CasesForTest.checkForOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedhashmap_tests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CasesForTest" />
+      <option name="PACKAGE_NAME" value="com.lognex.unittest" />
+      <option name="MAIN_CLASS_NAME" value="com.lognex.unittest.CasesForTest" />
       <option name="METHOD_NAME" value="checkForOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -158,8 +167,8 @@
     </configuration>
     <configuration name="CasesForTest.checkIteration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedhashmap_tests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CasesForTest" />
+      <option name="PACKAGE_NAME" value="com.lognex.unittest" />
+      <option name="MAIN_CLASS_NAME" value="com.lognex.unittest.CasesForTest" />
       <option name="METHOD_NAME" value="checkIteration" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -168,8 +177,8 @@
     </configuration>
     <configuration name="CasesForTest.checkSetForOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedhashmap_tests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CasesForTest" />
+      <option name="PACKAGE_NAME" value="com.lognex.unittest" />
+      <option name="MAIN_CLASS_NAME" value="com.lognex.unittest.CasesForTest" />
       <option name="METHOD_NAME" value="checkSetForOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -178,8 +187,8 @@
     </configuration>
     <configuration name="CasesForTest.clearDicts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedhashmap_tests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CasesForTest" />
+      <option name="PACKAGE_NAME" value="com.lognex.unittest" />
+      <option name="MAIN_CLASS_NAME" value="com.lognex.unittest.CasesForTest" />
       <option name="METHOD_NAME" value="clearDicts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -210,9 +219,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CasesForTest_checkForOrder - 2020.01.07 at 18h 52m 37s.xml">
-      <configuration name="CasesForTest.checkForOrder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CasesForTest_checkForOrder - 2020.01.07 at 18h 54m 08s.xml">
       <configuration name="CasesForTest.checkForOrder" configurationId="JUnit" />
     </history-entry>
@@ -238,6 +244,9 @@
       <configuration name="CasesForTest.checkForOrder" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CasesForTest - 2020.01.07 at 19h 52m 26s.xml">
+      <configuration name="CasesForTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CasesForTest - 2020.01.15 at 21h 08m 27s.xml">
       <configuration name="CasesForTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -344,10 +353,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CasesForTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lognex/unittest/CasesForTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="329">
+          <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
